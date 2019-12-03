@@ -64,5 +64,4 @@ public class AddressParser {
         if (houseNumber.trim().isEmpty()) throw new IllegalArgumentException(HOUSE_NUMBER_IS_MISSING);
         return new Address(street.trim(), houseNumber.trim());
     }
-
 }

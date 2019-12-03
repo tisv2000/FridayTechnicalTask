@@ -22,8 +22,6 @@ public class AddressParserTest {
         };
     }
 
-    // Этот тест, по-хорошему, должен быть в отдельном классе AddressTest,
-    // но оставлен здесь из-за удобства, т.к. от него зависит следующий тест!
     @Test
     public void testAddressToJsonString() throws JsonProcessingException {
         Address address = new Address("Some street", "123");
